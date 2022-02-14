@@ -1,0 +1,177 @@
+.lohany
+{
+    color: brown;
+    border: 2PX solid green;
+    display: block;
+    width: 100%;
+    margin: 5px;
+}
+.sisiny
+{
+    border: 1px solid aqua;
+    width: 50%;
+}
+Ul
+{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+.watawata
+{
+    border: 1px solid brown;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    
+}
+.seza
+{
+    border: 1px solid gold;
+    width: 60%;
+    padding: 10px;
+    margin: 5px;
+}
+.sahafa
+{
+    border: 1px solid blue;
+    width: 40%;
+    padding: 20px;
+    margin: 5px;
+}
+.resaka
+{
+    border: 1px solid darkorange;
+    width: 100%;
+    display: flex;
+    margin: 5px;
+}
+.gana
+{
+    border: 1px solid yellow;
+    width: 50%;
+    margin: 5px;
+}
+.bitro
+{
+    border: 1px solid black;
+    width: 50%;
+    margin: 5px;
+}
+.voay
+{
+    border: 1px solid fuchsia;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+.sary
+{
+    border: 1px solid green;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 5px;
+    height: 100px;
+}
+.fiantso
+{
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
+    margin: 5px;
+    justify-content: space-between;
+    padding: 10px;
+}
+.izaho
+{
+    border: 1px solid yellow;
+    width: 20%;
+    margin: 5px;
+    display: block;
+    text-align: center;
+    padding: 5px;
+}
+.ianao
+{
+    border: 1px solid black;
+    width: 20%;
+    margin: 5px;
+    padding: 5px;
+}
+.izy
+{
+    border: 1px solid grey;
+    width: 20%;
+    margin: 5px;
+    padding: 5px;
+}
+.isika
+{
+    border: 1px solid purple;
+    width: 20%;
+    margin: 5px;
+    padding: 5px;
+}
+.nareo
+{
+    border: 1px solid pink;
+    width: 20%;
+    margin: 5px;
+    padding: 5px;
+}
+.farany
+{
+    border: 1px solid orange;
+    width: 100%;
+    display: flex;
+    margin: 5px;
+    justify-content: space-between;
+    padding: 10px;
+}
+.ambony-ambany
+{
+    border: 1px solid red;
+    width: 60%;
+    display: inline;
+    margin: 5px;
+    justify-content: space-between;
+    padding: 5px;
+}
+.novembre
+{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+}
+.decembre
+{
+    border: 1px solid gold;
+    padding: 10px;
+    margin: 5px;
+}
+.anilany
+{
+    border: 1px solid blue;
+    width: 40%;
+    display: flex;
+    margin: 5px;
+    justify-content: space-between;
+    padding: 5px;
+}
+.leo
+{
+    border: 1px solid black;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    text-align: right;
+    color: goldenrod;
+    font-family: fantasy;
+    background-color: chocolate;
+}
