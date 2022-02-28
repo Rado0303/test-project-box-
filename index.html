@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SAYNA</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="bootstrap-reboot.min.css">
+
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <link rel="stylesheet" href="style2.css">
+
+    
+
+</head>
+
+<body>
+
+    <!--conteneur général partie 1, système flexbox-->
+
+    <div class="conteneur-flex">
+
+        <!--conteneur de la navigation-bar-->
+
+        <nav id="container-flex-nav">
+
+            <ul>
+
+                <li><a href="Home" style="color: #FFFFFF;">Home</a></li>
+
+                <li><a href="Feature" style="color: #FFFFFF;">Feature</a></li>
+
+                <div class="sary">
+
+                    <!--un flex item pour mieux gerer la responsive-->
+
+                    <img  src="img/SAYNA_Horizontal_-_Blanc.png" alt="" width="300px">
+
+                </div>
+
+                <li><a href="TASK.html">Get it Now</a></li>
+
+            </ul>
+
+        </nav>
+
+        <!--fin du conteneur de navigation-->
+
+        <!--debut du contenu dudit site sayna-->
+
+        <div>
+
+            
+
+            <div class="conteneur-flex-titre">
+
+                <!--première partie du contenu-->
+
+                <h1>Promote your<stong> New App !</strong></h1>
+                    <br>
+
+                <h5> <a href="https.//www.appstore.com">NEW SOFTWARE IN THE APP STORE</a></h5><br><br>
+
+                <p style="color: #ababab;">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.Vestibulum<br> 
+
+                    id ligula porta felis euismod semper.</p>
+
+                    <form >
+
+                        <input class="boutton" type ="button" type="submit" value="Buy Now">
+
+                    </form>
+
+                
+
+            </div>
+
+            <div class="container-image">
+
+                <!--width et height pour fixer l'image et pour faciliter la mise en forme-->
+
+                <img  src="img/image_600px_1.png" alt=""  width="80%" height="300px">
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container-flex2">
+
+        <div id="flex-icon">
+
+            <figure class="social">
+
+                <!--les icon sont aussi dans une boite par la balise figure-->
+
+                <img src="img/social_icon1.png" alt="">
+
+                <img src="img/social_icon2.png" alt="">
+
+                <img src="img/social_icon3.png" alt="">
+
+                <img src="img/social_icon4.png" alt="">
+
+                <img src="img/social_icon5.png" alt="">
+
+                <img src="img/social_icon6.png" alt="">
+
+                <img src="img/social_icon7.png" alt="">
+
+                <img class="hiden" src="img/social_icon8.png" alt="">
+
+            </figure>
+
+            <p> <a href="#">SOCIAL MEDIA OPTION</a></p>
+
+        </div>
+
+        <div id="flex-para">
+
+            
+
+                <P> Check Our <strong>New App.</strong> </P>
+
+                <P> Aenean lacinia bibendum nulla sed consectetur. Donec sed
+
+                    odio dui. Lorem ipsum dolor sit amet, consectetur adipiscing </P>
+
+            
+
+        </div>
+
+    </div>
+
+    <!--fin de la première partie-->
+
+    <div class="container-flex-trois">
+
+        <!--debut de la deuxième partie du contenu-->    
+
+        <div id="flex-item1"> 
+
+            <!--système de box qui s'imbriquent, boite dans une boite flex-->
+
+            <div class="wigget">
+
+                <!--wigget pour la  boite secondaire et pngl (left)pour les icon gauche en fex start-->
+
+                <section class="left">
+
+                    <!-- balise section  pour préciser la mise en forme des images-->    
+
+                    <img class="pngl" src="img/icon_28px_1.png" alt="">
+
+                    Awesomeness
+
+                </section>        
+
+                
+
+                <p> Aenean lacinia bibendum nulla sed consectetur.</p>
+
+                
+
+            </div>
+
+            <div class="wigget">
+
+                <section class="left">
+
+                    <img class="pngl"src="img/icon_28px_2.png" alt="">
+
+                    Pro Concept
+
+                </section>
+
+                <p>Aenean lacinia bibendum nulla sed consectetur.</p>  
+
+            </div>
+
+            <div class="wigget">
+
+                <section class="left">
+
+                    <img class="pngl"
+
+                    src="img/icon_28px_3.png" alt="">
+
+                    Colourfull
+
+                </section>
+
+                <p>Aenean lacinia bibendum nulla sed consectetur.</p>
+
+            </div>
+
+        </div>
+
+        <div id="flex-item2">
+
+           <figure class="imgf-deux">
+
+                <!--superposition de deux images dans "figure" grace au propriété z-index-->
+
+                <img id="phone"src="img/image_190px_1.png" alt="" width="100px">
+
+                <img  id="fig-deux" src="img/logo.png" alt=" " > 
+
+            </figure>
+
+
+
+            <figure id="iphone">
+
+                <img  src="img/iphone.png" alt="" width="300%">
+
+                <!--en dysplay none pour les ecrans large et block pour les affichage mobile-->
+
+                <!--dans la partie responsive du style -->
+
+            </figure>
+
+        </div>
+
+        <div id="flex-item3">
+
+            <div class="wigget">
+
+                <!--wigget pour la  boite secondaire et pngr (right)pour icon droite en  row-revers-->
+
+                <section class="right">
+
+                    <img class="pngr" src="img/icon_28px_4.png" alt="">
+
+                        Skills
+
+                </section>
+
+                       
+
+                <p> Aenean lacinia bibendum nulla sed consectetur.</p>
+
+                        
+
+            </div>
+
+            <div class="wigget">
+
+                <section class="right">
+
+                    <img class="pngr" src="img/icon_28px_5.png" alt="">
+
+                        Responsive
+
+                </section>
+
+                <p>Aenean lacinia bibendum nulla sed consectetur.</p>
+
+                        
+
+            </div>
+
+            <div class="wigget">
+
+                <section class="right">
+
+                    <img class="pngr"  src="img/icon_28px_6.png" alt="">
+
+                        Tested
+
+                </section>
+
+                <p>Aenean lacinia bibendum nulla sed consectetur.</p>
+
+                        
+
+            </div>
+
+        </div>
+
+        <!--find de la deuxième partie du contenu--> 
+
+    </div>
+
+     <!--debut de la troisième partie  qui se divise en 5(div) sous boite qui s'imbriquent les un dans les autres--> 
+
+    <div class="container-flex4">
+
+        <!--debut de la première boite-->
+
+        <div class="around">
+
+            <img src="img/avatar_91px_1.png" alt="" width="10%%">
+
+        </div>
+
+        <div class="lorem">
+
+            <p>Nullam quis risus eget urna mollis ornare vel eu leo. <br>  nullam id dolor id nibh ultricies.</p>
+
+            <p> <a href="#">- JOHN DO</a></p>
+
+        </div>
+
+    </div>
+
+    <div class="container-flex5">
+
+        <!--debut de la deuxieme boite-->
+
+        <div class="text">
+
+            <p>The best <strong>Screenshot</strong></p>
+
+        </div>
+
+        <div class="screnshoot">
+
+            <figure class="figure">
+
+                <img src="img/image_185px_1.jpg" alt="">
+
+                <figcaption class="figure-caption">Screenshot 1</figcaption>
+
+            </figure>
+
+            <figure class="figure">
+
+                <img src="img/image_185px_2.jpg" alt="">
+
+                <figcaption class="figure-caption">Screenshot 2</figcaption>
+
+            </figure>
+
+            <figure class="figure-special">
+
+                <!--class special pour l'affichage mobile en none- (sysrem desktop first ici)-->
+
+                <img src="img/image_185px_3.jpg" alt="">
+
+                <figcaption class="figure-caption">Screenshot 3</figcaption>
+
+            </figure>
+
+        </div>
+
+
+
+
+
+    </div>
+
+    <div class="container-flex6">
+
+        <!--debut de la troisieme boite-->
+
+        <div id="play">
+
+            <figure class="test">
+
+                <img  class="test1" src="img/image_300px_1.png" alt="" width="100%">
+
+                <img class="test2"  src="img/logo.png" alt=" " width="40%"> 
+
+                <img class="test3" src="img/Composant_1_2.png" alt="">
+
+            </figure>
+
+
+
+        </div>
+
+        <div id="soratra">
+
+            <h4 class="titre-flex">  Litmus Tested .</h4>
+
+            <p>  
+
+                Aenean lacinia bibendum nulla sed consectetur. Donec sed odio dui.
+
+                 Lorem ipsum dolor sit amet, consectetur adipiscing <span>elit. Aenean eu leo quam.</span>
+
+            </p>
+
+            <form>
+
+                <input class="boutton" type="button" type="submit" value="see it here">
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <div class="container-flex7">
+
+        <!--debut de la quatrieme boite-->
+
+        <div id="responsive">
+
+            <h4 class="titre-flex">100% Responsive .</h4>
+
+             <p>
+
+                Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. 
+
+                Vestibulum id ligula porta felis euismod semper. 
+
+                Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+
+                Cras mattis consectetur purus sit amet fermentum. 
+
+                Nullam quis risus eget urna mollis ornare vel eu leo. 
+
+                Maecenas faucibus mollis interdum.
+
+            </p>    
+
+                <form>
+
+                <input class="boutton" type="button" type ="submit" value="visist website">
+
+            </form>
+
+    
+
+        </div>
+
+        <div id="iphone1">
+
+            <img src="img/image_300px_2.png" alt="" width="95%">
+
+        </div>
+
+
+
+    </div>
+
+    <div class="container-flex8">
+
+        <!--debut de la derniere boite -->
+
+        <div id="list1">
+
+            <div class="log">
+
+                <img src="img/SAYNA_Horizontal_-_Noir.png" alt="" width="80%">
+
+            </div>
+
+            <div class="pa">
+
+                <p>Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna.
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <div id="list2">
+
+            <div class="titleend">
+
+                <h4>INFO</h4>
+
+                <H6> Website  </H6>
+
+                <H6>Features </H6>
+
+                <H6>Appstore</H6>
+
+                <H6>Unsubscribe</H6>
+
+            
+
+            </div>
+
+        </div>
+
+        <div id="list3"> 
+
+            <div class="titleend">
+
+                <h4>CONTACT</h4>
+
+                <p>SAYNA SARL</p>
+
+                <p>Busness Center 2eme etage a gauche</p>
+
+                <p>Tanjombato 101 Antananarivo NIF : 5 002</p>
+
+                <p> 997 537 Stat:85497 1 2018 010389</p>
+
+                <p>Madagascar</p>
+
+               
+
+            </div>
+
+        </div>
+
+    </div><!--fin de la troisieme partie du contenu et du contenu general dudit site sayna-->
+
+    <footer>
+        <!--partie footer du page -->
+
+      <div class="farany">
+
+          <i class="fa fa-copyright" aria-hidden="true">&copy; copyriht sayna 2016-all right reserved</i>
+
+
+
+      </div> 
+
+      <div class="ligo">
+
+          
+
+                <img src="img/social_icon_19px_1.png" alt="">
+
+                <img src="img/social_icon_19px_2.png" alt="">
+
+                <img src="img/social_icon_19px_3.png" alt="">
+
+                <img src="img/social_icon_19px_4.png" alt="">
+
+        
+
+      </div> 
+
+    </footer>
+
+
+
+
+
+</body>
+
+</html>
